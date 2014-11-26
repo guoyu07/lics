@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">12</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">7a56f6da-7689-4f85-bf53-2af5eccf7f87</dc:identifier>
+        <dc:title>How to Analyze People on Sight / Through the Science of Human Analysis: The Five Human Types</dc:title>
+        <dc:creator opf:file-as="Benedict, Elsie Lincoln" opf:role="aut">Elsie Lincoln Benedict</dc:creator>
+        <dc:creator opf:file-as="Benedict, Elsie Lincoln" opf:role="aut">Ralph Paine Benedict</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.4.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2009-12-03T23:00:00+00:00</dc:date>
+        <dc:identifier opf:scheme="URI">http://www.gutenberg.org/ebooks/30601</dc:identifier>
+        <dc:language>eng</dc:language>
+        <dc:subject>Tag 1</dc:subject>
+        <dc:subject>Tag 2</dc:subject>
+        <meta content="{&quot;Ralph Paine Benedict&quot;: &quot;&quot;, &quot;Elsie Lincoln Benedict&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2014-11-10T18:19:17+00:00" name="calibre:timestamp"/>
+        <meta content="How to Analyze People on Sight / Through the Science of Human Analysis: The Five Human Types" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Coverbild" type="cover"/>
+    </guide>
+</package>

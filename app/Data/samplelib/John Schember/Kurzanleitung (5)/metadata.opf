@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">5</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">b7b64aab-55b8-46b5-b15a-854c770f9adf</dc:identifier>
+        <dc:title>Kurzanleitung</dc:title>
+        <dc:creator opf:file-as="Schember, John" opf:role="aut">John Schember</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.4.0) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2014-06-26T22:00:00+00:00</dc:date>
+        <dc:description>&lt;p class="description"&gt;Eine kleine Einführung in Calibre&lt;/p&gt;</dc:description>
+        <dc:language>eng</dc:language>
+        <dc:language>deu</dc:language>
+        <meta content="{&quot;John Schember&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2014-11-06T21:22:38+00:00" name="calibre:timestamp"/>
+        <meta content="Kurzanleitung" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Coverbild" type="cover"/>
+    </guide>
+</package>
