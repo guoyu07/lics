@@ -21,8 +21,8 @@
 
 	<div class="container">
 		<div class="page-header">
-			<h1 class="nowrap"><?php echo __('Welcome.'); ?></h1>
-			<p class="lead nowrap"><?php echo __('Please enter your username and password.'); ?></p>
+			<h1><?php echo __('Welcome.'); ?></h1>
+			<p class="lead"><?php echo __('Please enter your username and password.'); ?></p>
 		</div>
 		<hr>
 		<?php echo $this->Session->flash(); ?>
