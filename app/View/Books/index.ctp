@@ -13,8 +13,8 @@ echo $this->Paginator->numbers(array(
   'currentClass' => 'active',
   'tag' => 'li',
   'first' => 1,
-  'modulus' => 6,
-  'last' => 1,
+  'modulus' => 2,
+  'last' => 0,
   'ellipsis' => '<li class="disabled"><a>...</a></li>'
 ));
 echo $this->Paginator->next('&raquo;', array('tag' => 'li','currentClass' => 'disabled', 'escape' => false), null, array('tag' => 'li','class' => 'disabled','disabledTag' => 'a', 'escape' => false));
