@@ -1,20 +1,21 @@
 # LANGUAGE translation of CakePHP Application
 # Copyright YEAR NAME <EMAIL@ADDRESS>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-11-19 23:48+0000\n"
-"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Project-Id-Version: lics\n"
+"POT-Creation-Date: 2014-12-04 22:54+0000\n"
+"PO-Revision-Date: 2014-12-04 23:55+0100\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.7\n"
 
-#: Controller/BooksController.php:44;48
+#: Controller/BooksController.php:81;85
 msgid "Invalid book"
 msgstr "Ungültiges Buch"
 
@@ -23,11 +24,82 @@ msgid "Invalid download"
 msgstr "Ungültiger Download"
 
 #: Controller/UsersController.php:14
-msgid "Invalid username or password, try again"
-msgstr "Benutzername oder Passwort ungültig, bitte erneut versuchen"
+msgid "Invalid username or password. Please try again."
+msgstr "Benutername oder Kennwort ungültig. Bitte versuchen Sie es erneut."
 
-#: View/Books/index.ctp:2
-#: View/Books/view.ctp:2
+#: Controller/UsersController.php:29
+msgid "The password has been successfully changed."
+msgstr "Das Kennwort wurde erfolgreich geändert."
+
+#: Controller/UsersController.php:32
+msgid "The password could not be changed. Please try again."
+msgstr "Das Kennwort konnte nicht geändert werden. Bitte versuchen Sie es erneut."
+
+#: Test/languages.php:3
+msgid "iso639-2_ces"
+msgstr "tschechisch"
+
+#: Test/languages.php:4
+msgid "iso639-2_dan"
+msgstr "dänisch"
+
+#: Test/languages.php:5
+msgid "iso639-2_deu"
+msgstr "deutsch"
+
+#: Test/languages.php:6
+msgid "iso639-2_eng"
+msgstr "englisch"
+
+#: Test/languages.php:7
+msgid "iso639-2_fin"
+msgstr "finnisch"
+
+#: Test/languages.php:8
+msgid "iso639-2_fre"
+msgstr "französisch"
+
+#: Test/languages.php:9
+msgid "iso639-2_ind"
+msgstr "indonesisch"
+
+#: Test/languages.php:10
+msgid "iso639-2_ita"
+msgstr "italienisch"
+
+#: Test/languages.php:11
+msgid "iso639-2_jpn"
+msgstr "japanisch"
+
+#: Test/languages.php:12
+msgid "iso639-2_nld"
+msgstr "niederländisch"
+
+#: Test/languages.php:13
+msgid "iso639-2_pol"
+msgstr "polnisch"
+
+#: Test/languages.php:14
+msgid "iso639-2_por"
+msgstr "portugiesisch"
+
+#: Test/languages.php:15
+msgid "iso639-2_spa"
+msgstr "spanisch"
+
+#: Test/languages.php:16
+msgid "iso639-2_swe"
+msgstr "schwedisch"
+
+#: Test/languages.php:17
+msgid "iso639-2_tur"
+msgstr "türkisch"
+
+#: Test/languages.php:18
+msgid "iso639-2_zho"
+msgstr "chinesisch"
+
+#: View/Books/index.ctp:2 View/Layouts/default.ctp:34
 msgid "Home"
 msgstr "Startseite"
 
@@ -35,88 +107,63 @@ msgstr "Startseite"
 msgid "Books"
 msgstr "Bücher"
 
-#: View/Books/view.ctp:17
+#: View/Books/index.ctp:39
+msgid "There are no books to display."
+msgstr "Keine Bücher zur Anzeige gefunden."
+
+#: View/Books/search.ctp:2;13 View/Layouts/default.ctp:35
+msgid "Search"
+msgstr "Suche"
+
+#: View/Books/search.ctp:9 View/Books/view.ctp:15
 msgid "Title"
 msgstr "Titel"
 
-#: View/Books/view.ctp:21
+#: View/Books/search.ctp:10 View/Books/view.ctp:19
 msgid "Author"
 msgstr "Autor"
 
-#: View/Books/view.ctp:21
+#: View/Books/view.ctp:19
 msgid "Authors"
 msgstr "Autoren"
 
-#: View/Books/view.ctp:25
+#: View/Books/view.ctp:23
 msgid "Download"
-msgstr ""
+msgstr "Download"
 
-#: View/Books/view.ctp:36
+#: View/Books/view.ctp:34
 msgid "Tag"
 msgstr "Stichwort"
 
-#: View/Books/view.ctp:36
+#: View/Books/view.ctp:34
 msgid "Tags"
 msgstr "Stichworte"
 
-#: View/Books/view.ctp:42
+#: View/Books/view.ctp:40
 msgid "Publication date"
 msgstr "Publikationsdatum"
 
-#: View/Books/view.ctp:48
+#: View/Books/view.ctp:46
 msgid "Language"
 msgstr "Sprache"
 
-#: View/Books/view.ctp:48
+#: View/Books/view.ctp:46
 msgid "Languages"
 msgstr "Sprachen"
 
-#:
-#: Sprachen
-#:
-#: View/Books/view.ctp:49
-msgid "iso639-2_ces"
-msgstr "tschechisch"
-msgid "iso639-2_dan"
-msgstr "dänisch"
-msgid "iso639-2_deu"
-msgstr "deutsch"
-msgid "iso639-2_eng"
-msgstr "englisch"
-msgid "iso639-2_fin"
-msgstr "finnisch"
-msgid "iso639-2_fre"
-msgstr "französisch"
-msgid "iso639-2_ind"
-msgstr "indonesisch"
-msgid "iso639-2_ita"
-msgstr "italienisch"
-msgid "iso639-2_jpn"
-msgstr "japanisch"
-msgid "iso639-2_nld"
-msgstr "niederländisch"
-msgid "iso639-2_pol"
-msgstr "polnisch"
-msgid "iso639-2_por"
-msgstr "portugiesisch"
-msgid "iso639-2_spa"
-msgstr "spanisch"
-msgid "iso639-2_swe"
-msgstr "schwedisch"
-msgid "iso639-2_tur"
-msgstr "türkisch"
-msgid "iso639-2_zho"
-msgstr "chinesisch"
+#: View/Books/view.ctp:47
+msgid "iso639-2_"
+msgstr ""
 
-#: View/Books/view.ctp:54
+#: View/Books/view.ctp:52
 msgid "Comments"
 msgstr "Kommentare"
 
-#: View/Layouts/default.ctp:35
+#: View/Layouts/default.ctp:44
 msgid "Change Password"
 msgstr "Passwort ändern"
 
-#: View/Layouts/default.ctp:42
+#: View/Layouts/default.ctp:51
 msgid "Logout"
 msgstr "Abmelden"
 
@@ -128,26 +175,54 @@ msgstr "Willkommen."
 msgid "Please enter your username and password."
 msgstr "Bitte geben Sie Benutzername und Kennwort ein."
 
-#: View/Users/login.ctp:6
-msgid "Username"
-msgstr "Benutzername"
+#: View/Users/change_password.ctp:2;13
+msgid "Change password"
+msgstr "Kennwort ändern"
 
-#: View/Users/login.ctp:7
+#: View/Users/change_password.ctp:9 View/Users/login.ctp:6
 msgid "Password"
 msgstr "Kennwort"
 
-#: View/Users/login.ctp:10
+#: View/Users/change_password.ctp:10
+msgid "Password (confirm)"
+msgstr "Kennwort (bestätigen)"
+
+#: View/Users/login.ctp:5
+msgid "Username"
+msgstr "Benutzername"
+
+#: View/Users/login.ctp:9
 msgid "Login"
 msgstr "Anmelden"
 
+#: Model/Search.php:validation for field title
+msgid "Title must be at least three characters long"
+msgstr "Titel muss mindestens drei Zeichen beinhalten"
+
+#: Model/Search.php:validation for field author
+msgid "Author must be at least three characters long"
+msgstr "Autor muss mindestens drei Zeichen beinhalten"
+
 #: Model/User.php:validation for field username
-msgid "A username is required"
-msgstr "Benutzername ist erforderlich"
+msgid "Username must be at least three characters long"
+msgstr "Benutzername muss mindestens drei Zeichen lang sein"
 
 #: Model/User.php:validation for field password
-msgid "A password is required"
-msgstr "Passwort ist erforderlich"
+msgid "Password must be at least six characters long"
+msgstr "Kennwort muss mindestens drei Zeichen lang sein"
 
-#: Model/User.php:validation for field role
-msgid "Please enter a valid role"
-msgstr "Bitte geben Sie eine Rolle an"
+#: Model/User.php:validation for field password_confirm
+msgid "Passwords did not match"
+msgstr "Die eingegebenen Kennwörter stimmen nicht überein"
+
+#~ msgid "Invalid username or password, try again"
+#~ msgstr "Benutzername oder Passwort ungültig, bitte erneut versuchen"
+
+#~ msgid "A username is required"
+#~ msgstr "Benutzername ist erforderlich"
+
+#~ msgid "A password is required"
+#~ msgstr "Passwort ist erforderlich"
+
+#~ msgid "Please enter a valid role"
+#~ msgstr "Bitte geben Sie eine Rolle an"

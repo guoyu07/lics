@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2014-11-20 23:54+0000\n"
+"POT-Creation-Date: 2014-12-04 22:54+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/BooksController.php:44;48
+#: Controller/BooksController.php:81;85
 msgid "Invalid book"
 msgstr ""
 
@@ -23,12 +23,83 @@ msgid "Invalid download"
 msgstr ""
 
 #: Controller/UsersController.php:14
-msgid "Invalid username or password, try again"
+msgid "Invalid username or password. Please try again."
+msgstr ""
+
+#: Controller/UsersController.php:29
+msgid "The password has been successfully changed."
+msgstr ""
+
+#: Controller/UsersController.php:32
+msgid "The password could not be changed. Please try again."
+msgstr ""
+
+#: Test/languages.php:3
+msgid "iso639-2_ces"
+msgstr ""
+
+#: Test/languages.php:4
+msgid "iso639-2_dan"
+msgstr ""
+
+#: Test/languages.php:5
+msgid "iso639-2_deu"
+msgstr ""
+
+#: Test/languages.php:6
+msgid "iso639-2_eng"
+msgstr ""
+
+#: Test/languages.php:7
+msgid "iso639-2_fin"
+msgstr ""
+
+#: Test/languages.php:8
+msgid "iso639-2_fre"
+msgstr ""
+
+#: Test/languages.php:9
+msgid "iso639-2_ind"
+msgstr ""
+
+#: Test/languages.php:10
+msgid "iso639-2_ita"
+msgstr ""
+
+#: Test/languages.php:11
+msgid "iso639-2_jpn"
+msgstr ""
+
+#: Test/languages.php:12
+msgid "iso639-2_nld"
+msgstr ""
+
+#: Test/languages.php:13
+msgid "iso639-2_pol"
+msgstr ""
+
+#: Test/languages.php:14
+msgid "iso639-2_por"
+msgstr ""
+
+#: Test/languages.php:15
+msgid "iso639-2_spa"
+msgstr ""
+
+#: Test/languages.php:16
+msgid "iso639-2_swe"
+msgstr ""
+
+#: Test/languages.php:17
+msgid "iso639-2_tur"
+msgstr ""
+
+#: Test/languages.php:18
+msgid "iso639-2_zho"
 msgstr ""
 
 #: View/Books/index.ctp:2
-#: View/Books/view.ctp:2
-#: View/Layouts/default.ctp:26
+#: View/Layouts/default.ctp:34
 msgid "Home"
 msgstr ""
 
@@ -36,55 +107,66 @@ msgstr ""
 msgid "Books"
 msgstr ""
 
-#: View/Books/view.ctp:17
+#: View/Books/index.ctp:39
+msgid "There are no books to display."
+msgstr ""
+
+#: View/Books/search.ctp:2;13
+#: View/Layouts/default.ctp:35
+msgid "Search"
+msgstr ""
+
+#: View/Books/search.ctp:9
+#: View/Books/view.ctp:15
 msgid "Title"
 msgstr ""
 
-#: View/Books/view.ctp:21
+#: View/Books/search.ctp:10
+#: View/Books/view.ctp:19
 msgid "Author"
 msgstr ""
 
-#: View/Books/view.ctp:21
+#: View/Books/view.ctp:19
 msgid "Authors"
 msgstr ""
 
-#: View/Books/view.ctp:25
+#: View/Books/view.ctp:23
 msgid "Download"
 msgstr ""
 
-#: View/Books/view.ctp:36
+#: View/Books/view.ctp:34
 msgid "Tag"
 msgstr ""
 
-#: View/Books/view.ctp:36
+#: View/Books/view.ctp:34
 msgid "Tags"
 msgstr ""
 
-#: View/Books/view.ctp:42
+#: View/Books/view.ctp:40
 msgid "Publication date"
 msgstr ""
 
-#: View/Books/view.ctp:48
+#: View/Books/view.ctp:46
 msgid "Language"
 msgstr ""
 
-#: View/Books/view.ctp:48
+#: View/Books/view.ctp:46
 msgid "Languages"
 msgstr ""
 
-#: View/Books/view.ctp:49
+#: View/Books/view.ctp:47
 msgid "iso639-2_"
 msgstr ""
 
-#: View/Books/view.ctp:54
+#: View/Books/view.ctp:52
 msgid "Comments"
 msgstr ""
 
-#: View/Layouts/default.ctp:35
+#: View/Layouts/default.ctp:44
 msgid "Change Password"
 msgstr ""
 
-#: View/Layouts/default.ctp:42
+#: View/Layouts/default.ctp:51
 msgid "Logout"
 msgstr ""
 
@@ -96,27 +178,44 @@ msgstr ""
 msgid "Please enter your username and password."
 msgstr ""
 
-#: View/Users/login.ctp:6
-msgid "Username"
+#: View/Users/change_password.ctp:2;13
+msgid "Change password"
 msgstr ""
 
-#: View/Users/login.ctp:7
+#: View/Users/change_password.ctp:9
+#: View/Users/login.ctp:6
 msgid "Password"
 msgstr ""
 
-#: View/Users/login.ctp:10
+#: View/Users/change_password.ctp:10
+msgid "Password (confirm)"
+msgstr ""
+
+#: View/Users/login.ctp:5
+msgid "Username"
+msgstr ""
+
+#: View/Users/login.ctp:9
 msgid "Login"
 msgstr ""
 
+#: Model/Search.php:validation for field title
+msgid "Title must be at least three characters long"
+msgstr ""
+
+#: Model/Search.php:validation for field author
+msgid "Author must be at least three characters long"
+msgstr ""
+
 #: Model/User.php:validation for field username
-msgid "A username is required"
+msgid "Username must be at least three characters long"
 msgstr ""
 
 #: Model/User.php:validation for field password
-msgid "A password is required"
+msgid "Password must be at least six characters long"
 msgstr ""
 
-#: Model/User.php:validation for field role
-msgid "Please enter a valid role"
+#: Model/User.php:validation for field password_confirm
+msgid "Passwords did not match"
 msgstr ""
 
