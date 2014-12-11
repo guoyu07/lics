@@ -10,7 +10,7 @@ lics is a lightweight [Calibre](http://calibre-ebook.com/) server baked with [Ca
 
 ## Demo
 
-[lics.slauth.de](http://lics.slauth.de/) (user `admin`, password `admin`)
+[lics.slauth.de](http://lics.slauth.de/) (user `admin`, password `admin`; may take some time upon first request)
 
 ## Installation
 
